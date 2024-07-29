@@ -3,10 +3,11 @@ package com.TTBB.User;
 import java.util.Scanner;
 
 public class UserAccount {
-    String username;
-    int gameTimes = 0;
-    int userWallet = 0;
-    int userBaseWallet = 0;
+    public String username;
+    public int userId = 0;
+    public int gameTimes = 0;
+    public int userWallet = 0;
+    public int userBaseWallet = 0;
 
     public void callUserInfo() {
         System.out.printf("Welcome %s!\n", this.username);
