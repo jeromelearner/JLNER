@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_TTBB/01_TTBB.iml" filepath="$PROJECT_DIR$/01_TTBB/01_TTBB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/100_ObjectAttributesAndMethods1/100_ObjectAttributesAndMethods1.iml" filepath="$PROJECT_DIR$/100_ObjectAttributesAndMethods1/100_ObjectAttributesAndMethods1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/101_this/101_this.iml" filepath="$PROJECT_DIR$/101_this/101_this.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JLNER.iml" filepath="$PROJECT_DIR$/.idea/JLNER.iml" />
+    </modules>
+  </component>
+</project>
