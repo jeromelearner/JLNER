@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //UserAccount currentUser;
+        UserAccount currentUser = null;
         System.out.println("Welcome to TTBB!");
 
         boolean running = true;
@@ -23,31 +23,50 @@ public class Main {
         int i = 0;
 
         while (running) {
-            System.out.println("What do you want to do: \n1. Create User \n2. Current User \n3. Switch User \n4. Play Game \n5. Exit");
+            System.out.println("\nWhat do you want to do: \n1. Create User \n2. Manage Account \n3. Switch User \n4. Play Game \n5. Exit");
             System.out.print("Enter your choice: ");
             int userChoice = sc.nextInt();
 
             switch (userChoice) {
                 case 1:
                     UserAccount.CreateUserAccount(userAccountList[i]);
+                    currentUser = userAccountList[i];
                     i++;
                     break;
+
                 case 2:
-                    UserAccount[] activeAccountList = new UserAccount[6];
-                    for (int j = 0; j < userAccountList.length; j++) {
-                        if (userAccountList[j].userBaseWallet != 0) {
-                            activeAccountList[j] = userAccountList[j];
+                    if (currentUser != null) {
+                        currentUser.ManageAccount();
+                    } else {
+                        System.out.println("You have not created any accounts!");
+                    }
+                    break;
+
+                case 3:
+                    if (i <= 0) {
+                        System.out.println("You have not created any accounts!");
+                        break;
+                    } else {
+                        System.out.println("\nHere's the users lists:");
+                        for (int j = 0; j < i; j++) {
+                            System.out.printf("%d. %s\n", j+1, userAccountList[j].username);
                         }
                     }
-                    System.out.println("here's the user list");
-                    for (int j = 0; j < activeAccountList.length; j++) {
-                        System.out.println(activeAccountList[j].username);
+                    while (true) {
+                        System.out.print("Select an User: ");
+                        int switchUserChoice = sc.nextInt();
+                        if (switchUserChoice > 0 && switchUserChoice <= i) {
+                            currentUser = userAccountList[switchUserChoice-1];
+                            break;
+                        } else {
+                            System.out.println("Wrong Option, Please try again");
+                        }
                     }
                     break;
-                case 3:
-                    break;
+
                 case 4:
                     break;
+
                 case 5:
                     running = false;
                     System.out.println("Goodbye!");
