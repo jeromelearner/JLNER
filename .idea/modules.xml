@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/01_TTBB/01_TTBB.iml" filepath="$PROJECT_DIR$/01_TTBB/01_TTBB.iml" />
       <module fileurl="file://$PROJECT_DIR$/100_ObjectAttributesAndMethods1/100_ObjectAttributesAndMethods1.iml" filepath="$PROJECT_DIR$/100_ObjectAttributesAndMethods1/100_ObjectAttributesAndMethods1.iml" />
       <module fileurl="file://$PROJECT_DIR$/101_this/101_this.iml" filepath="$PROJECT_DIR$/101_this/101_this.iml" />
+      <module fileurl="file://$PROJECT_DIR$/102_PackageAndPrivate/102_PackageAndPrivate.iml" filepath="$PROJECT_DIR$/102_PackageAndPrivate/102_PackageAndPrivate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/103_Constructor/103_Constructor.iml" filepath="$PROJECT_DIR$/103_Constructor/103_Constructor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JLNER.iml" filepath="$PROJECT_DIR$/.idea/JLNER.iml" />
     </modules>
   </component>
