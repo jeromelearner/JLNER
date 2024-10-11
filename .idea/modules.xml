@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/101_this/101_this.iml" filepath="$PROJECT_DIR$/101_this/101_this.iml" />
       <module fileurl="file://$PROJECT_DIR$/102_PackageAndPrivate/102_PackageAndPrivate.iml" filepath="$PROJECT_DIR$/102_PackageAndPrivate/102_PackageAndPrivate.iml" />
       <module fileurl="file://$PROJECT_DIR$/103_Constructor/103_Constructor.iml" filepath="$PROJECT_DIR$/103_Constructor/103_Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/104_abstract/104_abstract.iml" filepath="$PROJECT_DIR$/104_abstract/104_abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/105_interface/105_interface.iml" filepath="$PROJECT_DIR$/105_interface/105_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/106_Object/106_Object.iml" filepath="$PROJECT_DIR$/106_Object/106_Object.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JLNER.iml" filepath="$PROJECT_DIR$/.idea/JLNER.iml" />
     </modules>
   </component>
